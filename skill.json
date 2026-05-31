@@ -1,0 +1,19 @@
+{
+  "name": "extract-getnote-spa-version",
+  "version": "3.0.0",
+  "description": "适配 Get笔记最新版单页应用(SPA)，采用单线程智能捕获跳转模式提取完整长文。",
+  "author": "Yiyun",
+  "command": "node run.js",
+  "parameters": [
+    {
+      "name": "url_or_id",
+      "description": "知识库URL（如 https://www.biji.com/subject/ABC123/...）或知识库ID（如 ABC123）",
+      "required": true
+    },
+    {
+      "name": "output_dir",
+      "description": "输出目录（可选，默认使用知识库ID）",
+      "required": false
+    }
+  ]
+}

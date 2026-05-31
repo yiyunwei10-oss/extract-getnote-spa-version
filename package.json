@@ -1,0 +1,10 @@
+{
+  "name": "extract-getnote-spa-version",
+  "version": "3.0.0",
+  "description": "Get笔记文案提取工具（SPA重构版）",
+  "main": "extract.js",
+  "author": "Yiyun",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

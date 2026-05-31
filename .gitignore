@@ -1,0 +1,20 @@
+# 依赖
+node_modules/
+package-lock.json
+
+# 浏览器数据
+chrome-user-data/
+
+# 提取的文章（输出文件夹）
+# 排除所有文件夹，但保留必要的文件
+*.md
+!README.md
+
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
